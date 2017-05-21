@@ -245,6 +245,7 @@ input[type=submit] {
   max-width: 100%;
   margin: 0 0 0 0;
   clear: none;
+  padding-right:20px;
 }
 .sidebar {
   float: left;
@@ -252,13 +253,16 @@ input[type=submit] {
   max-width: 100%;
   padding: 30px;
   margin-bottom: 20px;
+  padding-bottom:30px;
 }
 #main-container {
-  padding: 30px 35px 70px 35px;
+  padding: 130px 35px 70px 35px;
   width: 100%;
 }
 .main-section {
   max-width: 100%;
+  padding-bottom:30px;
+  padding-right:30px;
 }
 }
     /* For mobile phones: */
@@ -277,7 +281,7 @@ input[type=submit] {
   margin-bottom: 20px;
 }
 #main-container {
-  padding: 30px 35px 70px 35px;
+  padding: 30px 30px 70px 35px;
 }
 .main-section {
 
@@ -292,10 +296,15 @@ input[type=submit] {
 }
 #logo {
   float: left;
-  width: 100%;
+  width: 115%;
+  max-width: 115%;
 }
 nav {
   float: left;
   width:100%;
-  padding:0 0 0 20%;
+  padding:0 0 0 0;
 }
+}
+/* for some other screen*/
+@media only screen and (max-width: 980px) {
+/*  cant figure it out, ends up messing up the other media queries.
